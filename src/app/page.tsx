@@ -433,48 +433,6 @@ export default function TechCompanyWebsite() {
         </div>
       </section>
 
-      {/* Trust Badges Section */}
-      {/* <section className="w-full py-12 bg-muted/30">
-        <div className="container px-4 md:px-6">
-          <div className="text-center space-y-8">
-            <h3 className="text-2xl font-bold text-muted-foreground">Trusted by Industry Leaders</h3>
-            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-              <div className="flex items-center space-x-2 text-lg font-semibold">
-                <div className="size-8 bg-blue-100 rounded"></div>
-                <span>TechCorp</span>
-              </div>
-              <div className="flex items-center space-x-2 text-lg font-semibold">
-                <div className="size-8 bg-green-100 rounded"></div>
-                <span>InnovateLab</span>
-              </div>
-              <div className="flex items-center space-x-2 text-lg font-semibold">
-                <div className="size-8 bg-purple-100 rounded"></div>
-                <span>FutureScale</span>
-              </div>
-              <div className="flex items-center space-x-2 text-lg font-semibold">
-                <div className="size-8 bg-blue-100 rounded"></div>
-                <span>CloudFirst</span>
-              </div>
-            </div>
-            <div className="flex justify-center space-x-8 text-sm text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <Shield className="size-4 text-green-600" />
-                <span>SOC 2 Certified</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <CheckCircle className="size-4 text-green-600" />
-                <span>GDPR Compliant</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Shield className="size-4 text-green-600" />
-                <span>ISO 27001</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* CTA Section */}
       <section
         id="contact"
         className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-blue-600 to-blue-700 text-white"
@@ -497,25 +455,25 @@ export default function TechCompanyWebsite() {
                 <p>
                   📧 Email:{" "}
                   <a
-                    href="mailto:contact@attechservices.com"
+                    href="mailto:at.tech.services3379@gmail.com"
                     className="underline hover:text-white"
                   >
-                    contact@attechservices.com
+                    at.tech.services3379@gmail.com
                   </a>
                 </p>
                 <p>
                   📞 Phone:{" "}
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+918278709921"
                     className="underline hover:text-white"
                   >
-                    +1 (234) 567-890
+                    +91 82787-09921
                   </a>
                 </p>
               </div>
 
               {/* Contact Form */}
-              <div className="flex gap-2">
+              {/* <div className="flex gap-2">
                 <input
                   type="email"
                   placeholder="Enter your email"
@@ -529,7 +487,7 @@ export default function TechCompanyWebsite() {
                   Send Message
                 </Button>
               </div>
-              <p className="text-sm text-white/60">We typically respond within 24 hours.</p>
+              <p className="text-sm text-white/60">We typically respond within 24 hours.</p> */}
             </div>
           </div>
         </div>
