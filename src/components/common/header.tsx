@@ -7,8 +7,8 @@ function Header() {
         <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container flex h-16 items-center justify-between relative">
                 <div className="flex items-center space-x-2">
-                    <Image src="/images/logo_without.png" alt="A&T Tech Services" width={160} height={60} className="h-12 w-auto" priority />
-                    <span className="text-xl font-bold">A&amp;T Tech</span>
+                    <Image src="/images/logo.png" alt="A&T Tech Services" width={160} height={60} className="h-16 w-auto" priority />
+                    <span className="text-xl font-bold">A&amp;T Tech Services</span>
                 </div>
 
                 {/* Mobile menu toggle (hidden on md and up) */}

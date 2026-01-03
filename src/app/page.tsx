@@ -19,7 +19,7 @@ export default function TechCompanyWebsite() {
             <div className="space-y-4 max-w-4xl">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
                 Build the Future with
-                <span className="text-primary"> A&T Tech Services</span>
+                <p className="text-primary"> A&T Tech Services</p>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground text-lg md:text-xl">
                 Accelerate your development with our cutting-edge platform. Deploy faster, scale effortlessly, and
@@ -58,7 +58,7 @@ export default function TechCompanyWebsite() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <Card className=" border-2 hover:border-blue-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className=" border-2 hover:border-blue-600/50 hover:bg-blue-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-blue-100">
                   <Zap className="size-6 text-blue-600" />
@@ -70,7 +70,7 @@ export default function TechCompanyWebsite() {
               </CardHeader>
             </Card>
 
-            <Card className=" border-2 hover:border-green-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className=" border-2 hover:border-green-600/50 hover:bg-green-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-green-100">
                   <Shield className="size-6 text-green-600" />
@@ -82,7 +82,7 @@ export default function TechCompanyWebsite() {
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-purple-600/50  transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className="border-2 hover:border-purple-600/50 hover:bg-purple-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-purple-100">
                   <Globe className="size-6 text-purple-600" />
@@ -94,7 +94,7 @@ export default function TechCompanyWebsite() {
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-green-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className="border-2 hover:border-green-600/50 hover:bg-green-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-green-100">
                   <Code className="size-6 text-green-600" />
@@ -106,7 +106,7 @@ export default function TechCompanyWebsite() {
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-purple-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className="border-2 hover:border-purple-600/50 hover:bg-purple-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-purple-100">
                   <Rocket className="size-6 text-purple-600" />
@@ -118,7 +118,7 @@ export default function TechCompanyWebsite() {
               </CardHeader>
             </Card>
 
-            <Card className="border-2 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+            <Card className="border-2 hover:border-primary/50 hover:bg-primary-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
               <CardHeader>
                 <div className="flex size-12 items-center justify-center rounded-lg bg-primary/10">
                   <Users className="size-6 text-primary" />
@@ -236,7 +236,7 @@ export default function TechCompanyWebsite() {
               </p>
             </div>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              <Card className=" border-2 hover:border-blue-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-blue-600/50 hover:bg-blue-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-blue-100">
                     <Zap className="size-6 text-blue-600" />
@@ -248,7 +248,7 @@ export default function TechCompanyWebsite() {
                 </CardHeader>
               </Card>
 
-              <Card className=" border-2 hover:border-green-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-green-600/50 hover:bg-green-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-green-100">
                     <Globe className="size-5 text-green-600" />
@@ -260,7 +260,7 @@ export default function TechCompanyWebsite() {
                 </CardHeader>
               </Card>
 
-              <Card className=" border-2 hover:border-purple-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-purple-600/50 hover:bg-purple-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-purple-100">
                     <Shield className="size-5 text-purple-600" />
@@ -271,7 +271,7 @@ export default function TechCompanyWebsite() {
                 </CardHeader>
               </Card>
 
-              <Card className=" border-2 hover:border-blue-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-blue-600/50 hover:bg-blue-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-blue-100">
                     <Users className="size-5 text-blue-600" />                  </div>
@@ -280,7 +280,7 @@ export default function TechCompanyWebsite() {
                     infrastructure.                  </CardDescription>
                 </CardHeader>
               </Card>
-              <Card className=" border-2 hover:border-green-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-green-600/50 hover:bg-green-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-green-100">
                     <Zap className="size-5 text-green-600" />
@@ -291,7 +291,7 @@ export default function TechCompanyWebsite() {
                   </CardDescription>
                 </CardHeader>
               </Card>
-              <Card className=" border-2 hover:border-purple-600/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+              <Card className=" border-2 hover:border-purple-600/50 hover:bg-purple-100/50 transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader>
                   <div className="flex size-12 items-center justify-center rounded-lg bg-purple-100">
                     <Rocket className="size-5 text-purple-600" />

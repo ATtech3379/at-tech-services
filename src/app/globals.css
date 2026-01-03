@@ -181,4 +181,11 @@
     @apply mx-auto px-[var(--container-padding)];
     max-width: var(--container-max-width-2xl);
   }
+
+  .trust-gradient {
+    @apply bg-gradient-to-br from-blue-100 via-background to-green-100;
+  }
+}
+body {
+  scroll-behavior: smooth;
 }
